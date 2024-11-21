@@ -8,7 +8,7 @@ public class User {
     private String password;
     private String token;
     private Long coins;
-    private long elo;
+    private Long elo;
     private Long gamesPlayed;
     private List<Deck> decks;
 
