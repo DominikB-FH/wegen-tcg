@@ -36,6 +36,6 @@ public class UserService {
     }
 
     public Response getUser() {
-        return new Response(HttpStatus.OK, ContentType.JSON, userRepository.getUsers().toString());
+        return new Response(HttpStatus.OK, ContentType.PLAIN_TEXT, userRepository.getUsers().toString());
     }
 }

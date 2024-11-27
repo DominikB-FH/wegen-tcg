@@ -1,0 +1,7 @@
+Login for Users
+Use a Database
+Encrypt passwords
+Better way to create Unique IDs for new users
+Docker
+Battle Functionality
+change GetUsers into LookUpCertainUser
