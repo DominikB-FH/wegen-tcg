@@ -3,7 +3,6 @@ package at.banach.game.repository;
 import at.banach.game.entities.User;
 import lombok.RequiredArgsConstructor;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -39,7 +38,7 @@ public class UserRepositoryImpl implements UserRepository {
         for (User user : users) {
             if(Objects.equals(user.getUserName(), username)) {
                 return false;
-            };
+            }
         }
         return true;
     }

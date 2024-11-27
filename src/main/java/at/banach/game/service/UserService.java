@@ -17,7 +17,7 @@ public class UserService {
     private final ObjectMapper objectMapper;
 
     public Response createUser(Request request) {
-        User register = null;
+        User register;
         try {
             register = this.objectMapper.readValue(request.getBody(), User.class);
         } catch (JsonProcessingException e) {
