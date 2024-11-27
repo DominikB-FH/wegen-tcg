@@ -1,7 +1,14 @@
-package at.banach.game.Entities;
+package at.banach.game.entities;
+
+import lombok.*;
 
 import java.util.List;
 
+@Getter
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Deck {
     private List<Card> deck;
 
@@ -29,7 +36,4 @@ public class Deck {
         return deck.size();
     }
 
-    public List<Card> getDeck(){
-        return deck;
-    }
 }
